@@ -1,6 +1,8 @@
 <?php
-$koneksi = mysqli_connect("localhost", "root","root","dbjadwal");
-if (!$koneksi){
-    die("koneksi gagal:".mysqli_connect_error());
+// Host, User, Password, Nama Database
+$koneksi = mysqli_connect("localhost", "root", "root", "dbsekolah");
+
+if (!$koneksi) {
+    die("Koneksi gagal: " . mysqli_connect_error());
 }
 ?>
